@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Aka-AcidGR-Real Adult';
+  src: url('fonts/Aka-AcidGR-RealAdult.ttf.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  text-decoration: none;
+  color: #000;
+}
+
+header{
+  position:relative;
+    width: 1280px;
+    height: 80px;
+    padding: 0px 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+  position: absolute;
+  right:  1px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav ul {
+  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+
+}
+
+
+
+h1{
+  font-family:'Aka-AcidGR-Real Adult', sans-serif ;
+}
+h2{
+  font-family:'Helvetica', sans-serif;
+}
+h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.project-line{
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+footer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
