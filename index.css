@@ -9,6 +9,10 @@
   text-decoration: none;
   color: #000;
 }
+body {
+  position: relative;
+  z-index: 0;
+}
 
 header{
   position:relative;
@@ -40,6 +44,7 @@ h1{
 }
 h2{
   font-family:'Helvetica', sans-serif;
+  line-height: 0.4;
 }
 h3 {
   font-family: 'Helvetica', sans-serif;
@@ -57,8 +62,8 @@ section{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 145px;
-  margin-bottom: 55px;
+  padding-top: 180px;
+  margin-bottom: 105px;
 }
 .project-line{
   display: flex;
@@ -69,18 +74,66 @@ section{
 }
 
 .container {
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
 }
 
-.photo{
+.container img {
   position: absolute;
-  width: 100px;
-  height: auto;
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
 }
 /*positions*/
 
+.photo1{
+  top: 10px;
+  left: 30px;
+}
+.photo2{
+ top: 30px;
+ left: 750px;
+}
+.photo3{
+top: 80px;
+right: 30px;
+}
+.photo4{
+  top: 100px;
+  left: 400px;
+}
+.photo5{
+  top:180px;
+  left: 80px;
+}
+.photo6{
+  top: 150px;
+  right: 550px;
+}
+.photo7{
+  top: 180px;
+  right: 190px;
+}
+.photo8{
+  bottom: 130px;
+  left: 180px;
+}
+.photo9{
+  bottom: 20px;
+  left: 10px;
+}
+.photo10{
+  bottom: 80px;
+  right: 400px;
+}
+.photo11{
+  bottom: 40px;
+  right: 40px;
+}
 
 
 
@@ -90,6 +143,5 @@ footer{
   align-items: center;
   text-align: center;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
