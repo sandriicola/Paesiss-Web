@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    display: flex;
+    justify-content: space-between; /* o flex-end */
+}
+section.left {
+    height: auto;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 20px;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+section.right{
+    font-family: Helvetica, sans-serif;
+    font-style: oblique;
+    display: flex;
+    padding: 0 300px;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-left: auto;
+    padding-right: 60px;
+    max-width: 800px;
+}
+
+section.right p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: justify;
+
+}
