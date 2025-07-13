@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Aka-AcidGR-Real Adult';
+    src: url('fonts/Aka-AcidGR-RealAdult.ttf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     text-decoration: none;
     color: #000;
@@ -8,27 +15,37 @@ body{
     justify-content: space-between; /* o flex-end */
 }
 section.left {
-    height: auto;
+    height: 550px;
     width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: flex-start;
-    padding: 0 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px 100px 20px 40px;
     flex-direction: column;
     gap: 20px;
+}
 
+.photo img{
+    width: 150px;
+    height: auto;
+}
+
+section.left p{
+    font-family: 'Aka-AcidGR-Real Adult', sans-serif;
+    font-size: 30px;
 }
 
 section.right{
     font-family: Helvetica, sans-serif;
     font-style: oblique;
     display: flex;
-    padding: 0 300px;
+    padding: 0 40px;
     align-items: flex-end;
     flex-direction: column;
     margin-left: auto;
     padding-right: 60px;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 section.right p {
