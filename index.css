@@ -4,6 +4,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 *{
   text-decoration: none;
   color: #000;
@@ -27,16 +28,12 @@ nav {
   transform: translateY(-50%);
 }
 
-nav ul {
-  
+nav ul {  
   list-style: none;
   padding: 0;
   margin: 0;
   gap: 20px;
-
 }
-
-
 
 h1{
   font-family:'Aka-AcidGR-Real Adult', sans-serif ;
@@ -60,7 +57,8 @@ section{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 40px;
+  padding-top: 145px;
+  margin-bottom: 55px;
 }
 .project-line{
   display: flex;
