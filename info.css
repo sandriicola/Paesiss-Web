@@ -12,7 +12,7 @@
 
 body{
     display: flex;
-    justify-content: space-between; /* o flex-end */
+    justify-content: space-between; 
 }
 section.left {
     height: 550px;
