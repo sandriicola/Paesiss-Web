@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Morph Code</title>
+    <title>Nebula</title>
     <style>
         @font-face {
             font-family: 'Aka-AcidGR-Real Adult';
@@ -36,6 +36,27 @@
         h1{
             font-family:'Aka-AcidGR-Real Adult', sans-serif;
         }
+
+        .carousel{
+            width: 660px;
+            overflow: hidden;
+            margin: auto;
+            position: relative;
+        }
+        .carousel-mov{
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-image {
+            width: 200px;
+            height: 150px;
+            margin: 0 10px;
+            transition: transform 0.5s ease;
+        }
+        .carousel-image.center {
+            transform: scale(1.3);
+            z-index: 1;
+            }
  
     </style>
 </head>
@@ -45,8 +66,9 @@
     </header>
     <main>
         <section class="carousel">
+            <div class="carousel-mov">
             <img src="" class="carousel-image" alt="">
-        
+        </div>
         </section>
         <section>
             <p> titulo</p>
@@ -55,4 +77,5 @@
         </section>
     </main>
 </body>
+
 </html>
